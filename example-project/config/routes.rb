@@ -2,9 +2,8 @@ Rails.application.routes.draw do
 
 
 
-  resources :users, only: [:index, :show]
-  resources :carts, only: [:show]
-  resources :teas, only: [:index]
+  resources :users, only: [:show]
+  resources :teas, only: [:index, :show]
 
 
   #test routes
